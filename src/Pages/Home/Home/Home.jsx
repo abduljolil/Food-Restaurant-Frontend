@@ -3,7 +3,6 @@ import Category from "../Category";
 import PopularMenu from "../PopularMenu";
 import Featured from "./Featured/Featured";
 
- 
 
 const Home = () => {
     return (
