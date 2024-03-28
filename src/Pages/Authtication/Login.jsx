@@ -92,7 +92,9 @@ const Login = () => {
                                 <input disabled={false} className="btn btn-primary" type="submit" value="Login" />
                             </div>
                         </form>
-                        <p className='justify-center items-center py-5 '><small>New Here? <span className='text-blue font-bold '><Link to="/signup">Create an account</Link> </span></small></p>
+                       <div className='p-16'>
+                       <p ><small>New Here? <span className='text-blue font-bold text-xl '><Link to="/signup">Create an account</Link> </span></small></p>
+                       </div>
                     </div>
                 </div>
             </div>
