@@ -17,7 +17,6 @@ const OrderTab = ({ items }) => {
     };
     return (
         <div >
-
             <Swiper
                 pagination={pagination}
                 modules={[Pagination]}
@@ -32,7 +31,6 @@ const OrderTab = ({ items }) => {
                             ></FoodCard>)
                         }
                     </div>
-
                 </SwiperSlide>
 
             </Swiper>
