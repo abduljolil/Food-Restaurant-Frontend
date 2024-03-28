@@ -3,7 +3,7 @@ import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWith
 import { app } from "../firebase/firebase.confiq";
  
 
-export const AuthContext = createContext(null);
+export const AuthContext = createContext({});
 
 const auth = getAuth(app);
 
