@@ -7,6 +7,10 @@ import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import orderCoverImg from '../../assets/shop/banner2.jpg'
 import OrderTab from './OrderTab';
 import useMenu from './../../Hooks/useMenu';
+import 'react-tabs/style/react-tabs.css';
+ 
+ 
+ 
  
 
 const Order = () => {

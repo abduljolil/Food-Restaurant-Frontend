@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2'
 import { AuthContext } from "../../provider/AuthProvaider";
 import useAxiosPublic from "../../Hooks/useAxiosPublic";
+import SocialLogin from "../../omponents/SocialLogin";
 
 const SignUp = () => {
     const axiosPublic = useAxiosPublic();
