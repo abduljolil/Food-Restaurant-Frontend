@@ -9,6 +9,7 @@ export const AuthContext = createContext({});
 const auth = getAuth(app);
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
+    console.log(user);
     const [loading, setLoading] = useState(true);
     const googleProvider = new GoogleAuthProvider();
     const axiosPublic = useAxiosPublic();
@@ -45,6 +46,8 @@ const AuthProvider = ({ children }) => {
             if (currentUser) {
                 // get token and store client
                 const userInfo = { email: currentUser.email };
+                console.log(userInfo);
+
                 axiosPublic.post('/jwt', userInfo)
                     .then(res => {
                         if (res.data.token) {
