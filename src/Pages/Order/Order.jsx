@@ -10,13 +10,11 @@ import useMenu from './../../Hooks/useMenu';
  
 
 const Order = () => {
- const [menu]=useMenu(); 
-    console.log(menu);
     const categories = ['salad', 'pizza', 'soup', 'dessert', 'drinks'];
     const { category } = useParams();
     const initialIndex = categories.indexOf(category);
     const [tabIndex, setTabIndex] = useState(initialIndex);
-
+    const [menu] = useMenu();
     
     const desserts = menu.filter(item => item.category === 'dessert');
     const soup = menu.filter(item => item.category === 'soup');
