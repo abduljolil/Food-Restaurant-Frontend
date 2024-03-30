@@ -106,7 +106,7 @@ const SignUp = () => {
                             </div>
                         </form>
                         <div className='p-16'>
-                       <p ><small>New Here? <span className='text-blue font-bold text-xl '><Link to="/signup">Create an account</Link> </span></small></p>
+                       <p ><small>Already have  an account ? <span className='text-blue font-bold text-xl '><Link to="/login">Login</Link> </span></small></p>
                        <SocialLogin></SocialLogin>
                        </div>
                        
