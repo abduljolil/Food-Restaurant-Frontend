@@ -9,9 +9,7 @@ import 'swiper/css/navigation';
 import { Pagination } from 'swiper/modules';
 import FoodCard from './../../omponents/FoodCard';
 
-const OrderTab = ({ items }) => {
-    console.log(items);
-    
+const OrderTab = ({ items }) => {    
     const pagination = {
         clickable: true,
         renderBullet: function (index, className) {

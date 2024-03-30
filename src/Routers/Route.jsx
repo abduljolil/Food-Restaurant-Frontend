@@ -90,7 +90,7 @@ import PaymentHistory from "../Pages/Dashboard/PaymentHIstory";
         {
           path: 'updateItem/:id',
           element: <AdminRoute><UpdateItem></UpdateItem></AdminRoute>,
-          loader: ({params}) => fetch(`http://localhost:5000/menu/${params.id}`)
+          loader: ({params}) => fetch(`https://food-restaurants-server.vercel.app/menu/${params.id}`)
         },
         {
           path: 'users',
